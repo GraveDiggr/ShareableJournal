@@ -1,0 +1,102 @@
+.head{
+    font-family:"Shadows Into Light";
+    font-size:max(min(6vw,40px),25px);
+    text-align:center;
+    display:inline-block;
+  }
+  .bodyText{
+    font-family:Varela;
+    display:flex;
+  }
+  .cal{
+    flex:1;
+  }
+  .todo{
+    flex:1;
+    text-align:left;
+  }
+  .main{
+  width:auto;
+    margin-left:200px;
+      text-align:center;
+  }
+  .todo input{
+      font-family:Varela;
+    border:none;
+  }
+  ::placeholder { 
+    font-family:Varela;
+     color:darkgrey;
+  }
+  input[type="checkbox"]{
+  left:0px;
+  margin:0px;
+  color:red;
+  
+  }
+  .profImg{
+    width:22px;
+    height:22px;
+         clip-path: circle();
+         margin:3px;
+  
+         vertical-align:0%;
+  }
+  .profBtn{
+           margin:3px;
+  
+    top:0px;
+    display:block;
+  }
+  .allPlanners{
+    display:block;
+   
+  }
+  .sidebar{
+    font-family:Varela;
+    height: 100%;
+  top:0px;
+  width:200px;
+  position: absolute;
+    display:inline-block;
+  
+  
+  }
+  table{
+    display:block;
+    position:fixed;
+    top:30vh;
+    font-size:11px;
+    font-family:"Varela";
+  text-align:center
+  }
+
+  .light{
+    color:#9F9F9F;
+  }
+  .dayBtn{
+     outline: none;
+    padding:5px;
+    margin:5px;
+  
+  }
+  
+  .dayBtn:hover{
+    color:0xFF00FF;
+     background-color: gold;
+       clip-path: circle();
+       cursor:pointer;
+  }
+  .yChangeBtn:hover{
+     background-color: gold;
+       clip-path: circle();
+       cursor:pointer;
+  }
+  .currentDate{
+    color:0xFF00FF;
+     background-color: lightgrey;
+       clip-path: circle();
+       cursor:pointer;
+  
+  }
+  
