@@ -1,0 +1,117 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+
+<body onload="setUp()">
+ <div id="mainT" class="main">
+    <h2 id="date" class="head">
+      Planner
+    </h2>
+   <div class="bodyText">
+   
+  
+<div class="cal" id="cal">
+Calender:
+</div>
+<div class="todo" id="todo">
+To-do:
+<br>
+<div class="todoItem"><input type="checkbox"><input id="todoIn" type="text" value="Todo #1" onChange="addTodo(this)"></div>
+<div><span style="color:darkgrey;"  >+</span> 
+<input id="todoIn" placeholder="Add ToDo"type="text"onChange="addTodo(this)">
+</div>
+<br>
+
+</div>
+ </div>
+  </div>
+  
+  <div class="sidebar" id="sidebar">
+  
+<div id="profile" class="profBtn">
+<img class="profImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVVjFmzkq90vrRVkcxewvfd8FtX8R5nCnwdQ:https://clas.ucdenver.edu/ges/sites/default/files/styles/large_square_thumbnail/public/callout/blank-profile-picture.png%3Fitok%3Dqaao1Gq8&usqp=CAU">John Doe
+</div>
+<div class="allPlanners">
+Your Planners:
+</div>
+
+<br>
+    <table id="calender">
+      <tr class="cap">
+        <td style="text-align:left;" colspan="5"></td>
+        <td onclick="monthChange(-1)" class="yChangeBtn" ><</td>
+        <td onclick="monthChange(1)" class="yChangeBtn" >></td>
+      </tr>
+
+      <tr class="light">
+        <td>S</td>
+        <td>M</td>
+        <td>T</td>
+        <td>W</td>
+        <td>T</td>
+        <td>F</td>
+        <td>S</td>
+      </tr>
+      <tr class="day">
+        <td>
+          <btn></btn>
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="day">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="day">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="day">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="day">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr class="day">
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+ 
+</body>
